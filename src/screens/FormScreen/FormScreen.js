@@ -1,6 +1,6 @@
 import {SwiperFlatList} from 'react-native-swiper-flatlist';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import styles from './styles';
 import {
   Text,
@@ -26,10 +26,11 @@ const FormScreen = props => {
 
   //validation for personal info inputs
   const validatePersonalInfo = () => {
+    setBirthday(birthday);
     if (
       fullName != null &&
       position != null &&
-      birthday != null &&
+      personalInputs[2].val != null &&
       city != null &&
       phoneNumber != null
     ) {
