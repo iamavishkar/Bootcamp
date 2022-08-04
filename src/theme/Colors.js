@@ -1,0 +1,28 @@
+const colors = {
+  white: '#FFFFFF',
+  black: '#000000',
+  bg_daily: '#FFFFFF',
+  bg_moment: '#DBDBDB',
+  bg_journey: '#262626',
+  bg_collection: '#595959',
+  car_bg: '#808080',
+  car_bg_daily : '#262626',
+  car_bg_coll : '#FFFFFF',
+  lock: '#B3B3B3',
+  light:'rgba(255,255,255,0.5)',
+  daily_title_text:'#242424',
+  disabled_color:'#696969',
+  moment_title_text:'#242424',
+  collection_title_text:'rgba(255,255,255,0.96)',
+  journeys_title_text:'rgba(255,255,255,0.96)',
+  bottom_daily_text:'#B3B3B3',
+  bottom_collection_text:'#B3B3B3',
+  bottom_journeys_text:'rgba(255,255,255,0.72)',
+  bottom_moment_text: '#555555',
+  inactiveTabIcon:'rgba(255, 255, 255, 0.75)',
+  white_light: 'rgba(255,255,255,0.93)',
+  white_disabled: 'rgba(255,255,255,0.5)',
+  black_disabled: 'rgba(0,0,0,0.5)',
+  green_circle: '#519B45'
+}
+export default colors
