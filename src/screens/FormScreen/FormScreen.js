@@ -342,6 +342,27 @@ const FormScreen = props => {
                     </View>
                   );
                 })}
+                <View style={{flexDirection: 'row', marginBottom: 20}}>
+                  <View>
+                    <Text style={styles.inputLabel}>Start</Text>
+                    <TextInput
+                      style={[styles.input, styles.inputInline]}
+                      placeholder={'mm.yyyy'}
+                      maxLength={7}
+                      keyboardType={'numeric'}
+                    />
+                  </View>
+                  <View style={{marginRight: 20}}></View>
+                  <View>
+                    <Text style={styles.inputLabel}>End</Text>
+                    <TextInput
+                      style={[styles.input, styles.inputInline]}
+                      placeholder={'mm.yyyy'}
+                      maxLength={7}
+                      keyboardType={'numeric'}
+                    />
+                  </View>
+                </View>
               </ScrollView>
             </View>
 
@@ -417,7 +438,8 @@ const FormScreen = props => {
                 style={styles.buttonContainer}
                 activeOpacity={1}
                 onPress={() => {
-                  validatePersonalInfo();
+                  // validatePersonalInfo();
+                  goToNextPage();
                 }}>
                 <Text style={styles.buttonText}>Next</Text>
               </TouchableOpacity>

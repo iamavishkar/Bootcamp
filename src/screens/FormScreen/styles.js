@@ -25,6 +25,9 @@ const styles = StyleSheet.create({
     width: width - 40,
     paddingHorizontal: 20,
   },
+  inputInline: {
+    width: width / 2 - 30,
+  },
   inputLabel: {
     fontWeight: Fonts.weight.medium,
     fontSize: 16,
