@@ -45,15 +45,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     alignSelf: 'center',
-    paddingHorizontal: 14
+    paddingHorizontal: 14,
   },
   contentText: {
-    fontFamily: Fonts.fontFamily.GorditaRegular,
+    fontFamily: Fonts.fontFamily.GorditaMedium,
     fontSize: 18,
     fontWeight: Fonts.weight.normal,
     color: 'black',
     lineHeight: 25,
-    textAlign:'justify'
+    textAlign: 'justify',
   },
   bgTextContainer: {
     flex: 1,
@@ -69,6 +69,10 @@ const styles = StyleSheet.create({
     fontWeight: Fonts.weight.bold,
     color: '#F7EFFF',
     transform: [{rotate: '90deg'}],
+  },
+  brandingText: {
+    fontFamily: Fonts.fontFamily.GorditaBold,
+    fontSize: 18,
   },
 });
 

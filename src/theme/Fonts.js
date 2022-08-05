@@ -1,5 +1,6 @@
 const fontFamily = {
-  GorditaRegular: 'Gordita-Regular',
+  GorditaMedium: 'Gordita-Medium',
+  GorditaBold: 'Gordita-Bold',
   BebasNeueRegular: 'BebasNeue-Regular',
   BebasNeueBold: 'BebasNeue-Bold',
   PoppinsRegular: 'Poppins-Regular',
@@ -13,21 +14,6 @@ const fontFamily = {
   RobotoMedium: 'Roboto-Medium',
 };
 
-const size = {
-  small: 12,
-  text: 14,
-  title: 18,
-  description: 18,
-  largeDescription: 20,
-  xLargeDescription: 22,
-  promptTitle: 30,
-  caption: 50,
-  subCaption: 24,
-  buttonText: 30,
-  paymentHeader: 26,
-  paymentSubHeader: 16,
-};
-
 const weight = {
   light: '300',
   normal: '400',
@@ -36,4 +22,4 @@ const weight = {
   extrabold: '700',
 };
 
-export default {fontFamily, size, weight};
+export default {fontFamily, weight};

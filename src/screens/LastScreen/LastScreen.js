@@ -40,7 +40,7 @@ const LastScreen = props => {
           <Text style={styles.contentText}>
             Glad to see you, friend!
             {'\n\n\t\t\t\t'}
-            <Text style={{fontWeight: 'bold'}}>SPRY ROCKS</Text> is a rapidly
+            <Text style={styles.brandingText}>SPRY ROCKS</Text> is a rapidly
             developing European company with headquarter at Kharkiv, Ukraine.
             {'\n\n\t\t\t\t'}
             Our company was founded in 2014 and although we are a young team we

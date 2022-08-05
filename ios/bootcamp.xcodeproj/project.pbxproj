@@ -24,6 +24,8 @@
 		EB37B2DA0A41425AB3980850 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CDC1543F03B489DA63A957C /* Poppins-Medium.ttf */; };
 		4F241A2387A74C0FB0030244 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 288EF554083C46E3AA317AB3 /* Poppins-Regular.ttf */; };
 		08FD1D8A2A704BE5AC294F2F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCF1FDB6DEAC4C8582BA5AE9 /* Poppins-SemiBold.ttf */; };
+		214FC8C39D434683BD1F151B /* Gordita-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AB284B8B9334C9F8F147993 /* Gordita-Bold.otf */; };
+		CA07613218114F0087D0734D /* Gordita-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F294EFCE566C42C5BEE32418 /* Gordita-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		3CDC1543F03B489DA63A957C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		288EF554083C46E3AA317AB3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DCF1FDB6DEAC4C8582BA5AE9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AB284B8B9334C9F8F147993 /* Gordita-Bold.otf */ = {isa = PBXFileReference; name = "Gordita-Bold.otf"; path = "../src/assets/fonts/Gordita-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F294EFCE566C42C5BEE32418 /* Gordita-Medium.otf */ = {isa = PBXFileReference; name = "Gordita-Medium.otf"; path = "../src/assets/fonts/Gordita-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				3CDC1543F03B489DA63A957C /* Poppins-Medium.ttf */,
 				288EF554083C46E3AA317AB3 /* Poppins-Regular.ttf */,
 				DCF1FDB6DEAC4C8582BA5AE9 /* Poppins-SemiBold.ttf */,
+				3AB284B8B9334C9F8F147993 /* Gordita-Bold.otf */,
+				F294EFCE566C42C5BEE32418 /* Gordita-Medium.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 				EB37B2DA0A41425AB3980850 /* Poppins-Medium.ttf in Resources */,
 				4F241A2387A74C0FB0030244 /* Poppins-Regular.ttf in Resources */,
 				08FD1D8A2A704BE5AC294F2F /* Poppins-SemiBold.ttf in Resources */,
+				214FC8C39D434683BD1F151B /* Gordita-Bold.otf in Resources */,
+				CA07613218114F0087D0734D /* Gordita-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
