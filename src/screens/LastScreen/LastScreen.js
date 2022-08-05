@@ -39,20 +39,20 @@ const LastScreen = props => {
         <View style={styles.contentContainer}>
           <Text style={styles.contentText}>
             Glad to see you, friend!
-            {'\n\n\t\t\t\t'}
+            {'\n\n\n\t\t\t\t'}
             <Text style={styles.brandingText}>SPRY ROCKS</Text> is a rapidly
             developing European company with headquarter at Kharkiv, Ukraine.
-            {'\n\n\t\t\t\t'}
+            {'\n\t\t\t\t'}
             Our company was founded in 2014 and although we are a young team we
             have a lot of successful projects and satisfied customers.
-            {'\n\n\t\t\t\t'}
+            {'\n\t\t\t\t'}
             In work with every particular customer, the main philosophy is to
             establish and keep good relations.
-            {'\n\n\t\t\t\t'}
+            {'\n\t\t\t\t'}
             We develop innovative solutions that not only contribute to the
             success of our customer's businesses but also give them a
             competitive market advantage.
-            {'\n\n\t\t\t\t'}
+            {'\n\t\t\t\t'}
             Because your success is our success too!
           </Text>
         </View>

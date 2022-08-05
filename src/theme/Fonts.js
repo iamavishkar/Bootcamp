@@ -1,5 +1,5 @@
 const fontFamily = {
-  GorditaMedium: 'Gordita-Medium',
+  GorditaRegular: 'Gordita-Regular',
   GorditaBold: 'Gordita-Bold',
   BebasNeueRegular: 'BebasNeue-Regular',
   BebasNeueBold: 'BebasNeue-Bold',

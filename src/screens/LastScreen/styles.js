@@ -1,6 +1,5 @@
 import {StyleSheet, Dimensions} from 'react-native';
 import Fonts from '../../theme/Fonts';
-import Colors from '../../theme/Colors';
 const {width, height} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
   },
   contentText: {
-    fontFamily: Fonts.fontFamily.GorditaMedium,
+    fontFamily: Fonts.fontFamily.GorditaRegular,
     fontSize: 18,
     fontWeight: Fonts.weight.normal,
     color: 'black',
